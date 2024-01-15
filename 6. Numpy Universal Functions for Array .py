@@ -9,7 +9,7 @@ np1 = np.array([-3,-2,-1,0,1,2,3,4,5,6,7,8])
 # array_square_root = np.sqrt(np1) ; print(array_square_root) 
 
 #### cube-root of each element = root-third 
-array_cube_root = np.cbrt(np1) ; print(array_cube_root) 
+# array_cube_root = np.cbrt(np1) ; print(array_cube_root) 
 
 #### power of each element
 # array_power = np.power(np1,3) ; print(array_power) 
