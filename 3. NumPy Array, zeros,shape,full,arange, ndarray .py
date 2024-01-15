@@ -25,4 +25,4 @@ np1 = np.array([1, 2, 3, 4])
 # np6 = np.full((10),7) ; print(np6) # 10 elements , elements value = 7
 
 # multidimensional full 
-np7 = np.full((2,10),8) ; print(np7) # 2 dimention, 10 elements, elements value = 8
+# np7 = np.full((2,10),8) ; print(np7) # 2 dimention, 10 elements, elements value = 8
