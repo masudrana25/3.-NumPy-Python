@@ -4,6 +4,8 @@ import numpy as np
 boolean_array = np.array([True, False, False,True]) ; print(boolean_array.dtype)
 
 #### data type for number 
+
+print('Number Data Type Start')
 number_array_1 = np.array([1,2,3,4,5]) ; print(number_array_1.dtype)
 
 number_array_2 = np.array([1.1,2.2,3,4,5]) ; print(number_array_2.dtype)
@@ -13,6 +15,9 @@ number_array_3 = np.array([1.11,2.22,3.32,4.53,5.54]) ; print(number_array_3.dty
 number_array_4 = np.array([1.13465453,2.2757872,3.578532,4.53347,5.55664]) ; print(number_array_4.dtype)
 
 #### data type for string
+print('String Data Type Start')
+
+string_array_0 = np.array([1,2,4,'dfafe34ddf']) ;  print(string_array_0.dtype)
 
 string_array_1 = np.array(['Masud', 'sabbir','ibrahim']) ; print(string_array_1.dtype)
 
