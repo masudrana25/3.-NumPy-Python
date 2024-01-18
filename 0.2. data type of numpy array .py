@@ -1,5 +1,9 @@
 import numpy as np 
 
+# array_name.dtype 
+# type(array_name)
+
+
 #### data type for boolean
 boolean_array = np.array([True, False, False,True]) ; print(boolean_array.dtype)
 

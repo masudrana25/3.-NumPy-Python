@@ -6,14 +6,16 @@ np5 = np.array([[345,43454],[335,535]])
 
 # join need double (()) brackets around
 
-# 1-D join
+# 1-D join => axis = 0 => in x direction
 join_1 = np.concatenate((np1,np2)) ; # print(join_1)
 
-# 2-D join 
-join_2 = np.concatenate((np3,np4)) ; # print(join_2)
 
-# 2-D join in 1-axis
-join_2 = np.concatenate((np3,np4),axis=1) ; # print(join_2)
+# 2-D join 
+# axis = 0 => in y direction
+# axis = 1 => in x direction
+join_2 = np.concatenate((np3,np4),axis = 0) ;  print(join_2)
+join_3 = np.concatenate((np3,np4),axis = 1) ;  print(join_3)
+
 
 # 1-D with 2-D join
 # join_3 = np.concatenate((np1,np3)) ; # print(join_3) # not possible
