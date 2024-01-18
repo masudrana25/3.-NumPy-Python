@@ -1,3 +1,8 @@
-import numpy as np 
+import numpy as np
 
-np1 = np.array([1,2,4,'dfafe34ddf']) ; print(np1) ; print(np1.dtype)
+array1 = np.array([0, 1, 2, 3])
+
+# delete at index 2
+array2 = np.delete(array1, 2)
+
+print(array2)
