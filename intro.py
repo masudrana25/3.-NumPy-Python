@@ -1,8 +1,11 @@
 import numpy as np
 
-array1 = np.array([0, 1, 2, 3])
+# Create a simple 1-dimensional array
+my_array = np.array([1, 2, 3, 4, 5])
 
-# delete at index 2
-array2 = np.delete(array1, 2)
+print("Original array:", my_array)
 
-print(array2)
+# Shuffle the array in-place
+np.random.shuffle(my_array)
+
+print("Shuffled array:", my_array)
